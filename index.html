@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Software Developer</title>
+    <meta name="description"
+        content="Portfolio of a passionate Software Developer specializing in building exceptional digital experiences.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="cursor-dot" data-cursor-dot></div>
+    <div class="cursor-outline" data-cursor-outline></div>
+
+    <header class="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Vansh<span class="accent">.</span></a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+                <div class="nav__close" id="nav-close">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!-- HOME SECTION -->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__content">
+                    <div class="home__social">
+                        <a href="http://www.linkedin.com/in/vansh-sharma-06098720b" target="_blank"
+                            class="home__social-icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://github.com/vanshharma" target="_blank" class="home__social-icon"><i
+                                class="fa-brands fa-github"></i></a>
+                        <a href="mailto:vanshharma18@gmail.com" target="_blank" class="home__social-icon"><i
+                                class="fa-solid fa-envelope"></i></a>
+                    </div>
+
+                    <div class="home__data">
+                        <h1 class="home__title">Hi, I'm <span class="accent">Vansh Sharma</span></h1>
+                        <h3 class="home__subtitle">Software Developer</h3>
+                        <p class="home__description">
+                            Final year B.Tech student at I.K. Gujral Punjab Technical University.
+                            Passionate about building AI-driven applications and responsive web interfaces.
+                        </p>
+                        <a href="#contact" class="button button--flex">
+                            Contact Me <i class="fa-regular fa-paper-plane button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="home__image-container">
+                    <!-- Placeholder for profile image -->
+                    <div class="home__blob">
+                        <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                            <path fill="#3b82f6"
+                                d="M44.7,-76.4C58.9,-69.2,71.8,-59.1,81.6,-46.6C91.4,-34.1,98.1,-19.2,95.8,-5.3C93.5,8.6,82.2,21.5,70.6,32.2C59,42.9,47.1,51.4,34.8,58.3C22.5,65.2,9.8,70.5,-1.9,73.8C-13.6,77.1,-24.3,78.4,-34.8,73.8C-45.3,69.2,-55.6,58.7,-64.3,47.1C-73,35.5,-80.1,22.8,-81.8,9.2C-83.5,-4.4,-79.8,-18.9,-71.8,-30.8C-63.8,-42.7,-51.5,-52,-38.8,-59.9C-26.1,-67.8,-13,-74.3,0.8,-75.7C14.6,-77.1,29.2,-73.4,44.7,-76.4Z"
+                                transform="translate(100 100)" />
+                        </svg>
+                        <img src="assets/profile-placeholder.png" alt="Profile" class="home__img">
+                    </div>
+                </div>
+            </div>
+            <div class="home__scroll">
+                <a href="#about" class="home__scroll-button button--flex">
+                    <i class="fa-solid fa-computer-mouse home__scroll-mouse"></i>
+                    <span class="home__scroll-name">Scroll Down</span>
+                    <i class="fa-solid fa-arrow-down home__scroll-arrow"></i>
+                </a>
+            </div>
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section class="about section" id="about">
+            <h2 class="section__title">About Me</h2>
+            <span class="section__subtitle">My Introduction</span>
+
+            <div class="about__container container grid">
+                <div class="about__data">
+                    <p class="about__description">
+                        I am a Computer Science student with a strong foundation in data structures, algorithms, and web
+                        development.
+                        I have experience working with React, Next.js, and Python for data analysis and AI applications.
+                        I enjoy solving complex problems and have solved 1,200+ DSA challenges.
+                    </p>
+
+                    <div class="about__info">
+                        <div>
+                            <span class="about__info-title">1+</span>
+                            <span class="about__info-name">Years <br> experience</span>
+                        </div>
+                        <div>
+                            <span class="about__info-title">10+</span>
+                            <span class="about__info-name">Completed <br> projects</span>
+                        </div>
+                        <div>
+                            <span class="about__info-title">1200+</span>
+                            <span class="about__info-name">DSA <br> Solved</span>
+                        </div>
+                    </div>
+
+                    <div class="about__buttons">
+                        <a href="#" class="button button--flex">
+                            Download CV <i class="fa-solid fa-download button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS SECTION -->
+        <section class="skills section" id="skills">
+            <h2 class="section__title">Skills</h2>
+            <span class="section__subtitle">My Technical Level</span>
+
+            <div class="skills__container container grid">
+                <!-- Skill 1 -->
+                <div class="skills__content">
+                    <h3 class="skills__title">Frontend Developer</h3>
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class="fa-solid fa-circle-check"></i>
+                                <div>
+                                    <h3 class="skills__name">React/Next.js</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <i class="fa-solid fa-circle-check"></i>
+                                <div>
+                                    <h3 class="skills__name">Tailwind CSS</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <i class="fa-solid fa-circle-check"></i>
+                                <div>
+                                    <h3 class="skills__name">JavaScript</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class="fa-solid fa-circle-check"></i>
+                                <div>
+                                    <h3 class="skills__name">HTML/CSS</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <i class="fa-solid fa-circle-check"></i>
+                                <div>
+                                    <h3 class="skills__name">Git/GitHub</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skill 2 -->
+                <div class="skills__content">
+                    <h3 class="skills__title">Backend & AI</h3>
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class="fa-solid fa-circle-check"></i>
+                                <div>
+                                    <h3 class="skills__name">Python</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <i class="fa-solid fa-circle-check"></i>
+                                <div>
+                                    <h3 class="skills__name">Flask/Node.js</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <i class="fa-solid fa-circle-check"></i>
+                                <div>
+                                    <h3 class="skills__name">SQL</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class="fa-solid fa-circle-check"></i>
+                                <div>
+                                    <h3 class="skills__name">Pandas/NumPy</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <i class="fa-solid fa-circle-check"></i>
+                                <div>
+                                    <h3 class="skills__name">Langchain/RAG</h3>
+                                    <span class="skills__level">Basic</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS SECTION -->
+        <section class="projects section" id="projects">
+            <h2 class="section__title">Portfolio</h2>
+            <span class="section__subtitle">Most Recent Work</span>
+
+            <div class="projects__container container grid">
+                <!-- Project 1 -->
+                <div class="projects__card">
+                    <div class="projects__img-wrapper">
+                        <img src="assets/project1.jpg" alt="HealthSync" class="projects__img">
+                    </div>
+                    <div class="projects__content">
+                        <h3 class="projects__title">HealthSync Anomaly Detection</h3>
+                        <p class="projects__description">
+                            AI/ML platform for detecting bone fractures and TB from X-rays with 95% accuracy. Built with
+                            Python, Flask, XGBoost, and OpenCV.
+                        </p>
+                        <a href="https://github.com/vanshharma/HealthSync-Human-Body-Anomaly-Detection" target="_blank"
+                            class="button button--small button--link">
+                            GitHub <i class="fa-solid fa-arrow-right button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="projects__card">
+                    <div class="projects__img-wrapper">
+                        <img src="assets/project2.jpg" alt="Social Media Analytics" class="projects__img">
+                    </div>
+                    <div class="projects__content">
+                        <h3 class="projects__title">Social Media Analytics</h3>
+                        <p class="projects__description">
+                            Analytics platform processing 100K+ interactions with ML models and Power BI dashboards.
+                            Uses Python, PostgreSQL, and TensorFlow.
+                        </p>
+                        <a href="https://github.com/vanshharma/social_media_user_analytics" target="_blank"
+                            class="button button--small button--link">
+                            GitHub <i class="fa-solid fa-arrow-right button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="projects__card">
+                    <div class="projects__img-wrapper">
+                        <img src="assets/project3.jpg" alt="AyurGarden" class="projects__img">
+                    </div>
+                    <div class="projects__content">
+                        <h3 class="projects__title">AyurGarden</h3>
+                        <p class="projects__description">
+                            Educational platform built with React.js during a 36-hour hackathon. Showcases rapid
+                            prototyping and collaborative innovation.
+                        </p>
+                        <a href="#" class="button button--small button--link">
+                            Demo <i class="fa-solid fa-arrow-right button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Contact Me</h2>
+            <span class="section__subtitle">Get in touch</span>
+
+            <div class="contact__container container grid">
+                <div class="contact__content">
+                    <h3 class="contact__title">Talk to me</h3>
+
+                    <div class="contact__info">
+                        <div class="contact__card">
+                            <i class="fa-regular fa-envelope contact__card-icon"></i>
+                            <h3 class="contact__card-title">Email</h3>
+                            <span class="contact__card-data">vanshharma18@gmail.com</span>
+                            <a href="mailto:vanshharma18@gmail.com" class="contact__button">Write me <i
+                                    class="fa-solid fa-arrow-right contact__button-icon"></i></a>
+                        </div>
+
+                        <div class="contact__card">
+                            <i class="fa-solid fa-phone contact__card-icon"></i>
+                            <h3 class="contact__card-title">Phone</h3>
+                            <span class="contact__card-data">+91 8869827199</span>
+                            <a href="tel:+918869827199" class="contact__button">Call me <i
+                                    class="fa-solid fa-arrow-right contact__button-icon"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact__content">
+                    <h3 class="contact__title">Write me your project</h3>
+
+                    <form action="" class="contact__form">
+                        <div class="contact__form-div">
+                            <label class="contact__form-tag">Name</label>
+                            <input type="text" placeholder="Insert your name" class="contact__form-input">
+                        </div>
+
+                        <div class="contact__form-div">
+                            <label class="contact__form-tag">Mail</label>
+                            <input type="email" placeholder="Insert your email" class="contact__form-input">
+                        </div>
+
+                        <div class="contact__form-div contact__form-area">
+                            <label class="contact__form-tag">Project</label>
+                            <textarea name="" cols="30" rows="10" placeholder="Write your project"
+                                class="contact__form-input"></textarea>
+                        </div>
+
+                        <button class="button">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer__container container">
+            <h1 class="footer__title">Vansh.</h1>
+
+            <ul class="footer__list">
+                <li><a href="#about" class="footer__link">About</a></li>
+                <li><a href="#projects" class="footer__link">Projects</a></li>
+                <li><a href="#skills" class="footer__link">Skills</a></li>
+            </ul>
+
+            <div class="footer__social">
+                <a href="http://www.linkedin.com/in/vansh-sharma-06098720b" class="footer__social-link"
+                    target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/vanshharma" class="footer__social-link" target="_blank"><i
+                        class="fa-brands fa-github"></i></a>
+                <a href="mailto:vanshharma18@gmail.com" class="footer__social-link" target="_blank"><i
+                        class="fa-solid fa-envelope"></i></a>
+            </div>
+
+            <span class="footer__copy">&#169; 2025 Vansh Sharma. All rights reserved</span>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
